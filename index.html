@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Free Fire Pro Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, footer {
+      text-align: center;
+      padding: 15px;
+    }
+    header {
+      background: #ff5722;
+      font-size: 24px;
+    }
+    nav {
+      background: #222;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    .box {
+      background: #1e1e1e;
+      margin: 10px auto;
+      padding: 15px;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #000;
+    }
+    input, button {
+      padding: 10px;
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      background: #ff5722;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .signature {
+      margin-top: 15px;
+      font-size: 18px;
+      background: #333;
+      padding: 10px;
+      border-radius: 5px;
+      color: #0f0;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <header>🔥 Free Fire Pro Guide 🔥</header>
+  <nav>
+    <a href="#home">होम</a>
+    <a href="#tips">टिप्स</a>
+    <a href="#signature">सिग्नेचर</a>
+    <a href="#affiliate">एफिलिएट</a>
+    <a href="#premium">प्रीमियम</a>
+    <a href="#about">हमारे बारे में</a>
+  </nav>
+
+  <section id="home" class="box">
+    <h2>🎮 Free Fire Lovers के लिए</h2>
+    <p>Signature, Tips, गाइड्स और पैसे कमाने का ज़रिया – सब कुछ एक वेबसाइट में!</p>
+  </section>
+
+  <section id="tips" class="box">
+    <h2>🧠 गेम टिप्स</h2>
+    <ul>
+      <li>• Headshot मारने के लिए सेंसिटिविटी सही रखें</li>
+      <li>• Practice Range में डेली Aim Practice करें</li>
+      <li>• Ranked मैच में Safe Zone का ध्यान रखें</li>
+    </ul>
+  </section>
+
+  <section id="signature" class="box">
+    <h2>✨ Signature Generator</h2>
+    <input type="text" id="nameInput" placeholder="अपना नाम डालें" />
+    <button onclick="generate()">Signature बनाओ</button>
+    <div id="output" class="signature"></div>
+  </section>
+
+  <section id="affiliate" class="box">
+    <h2>🛒 गेमिंग गियर</h2>
+    <p>Best Gaming Headphones Under ₹999:</p>
+    <a href="https://amzn.to/your-affiliate-link" target="_blank">Amazon पर खरीदें</a>
+  </section>
+
+  <section id="premium" class="box">
+    <h2>💎 Signature Pack</h2>
+    <p>50+ सिग्नेचर स्टाइल्स सिर्फ ₹29 में</p>
+    <p>UPI: yourupi@okaxis</p>
+    <p>पेमेन्ट के बाद WhatsApp करें: <a href="https://wa.me/91XXXXXXXXXX">यहां क्लिक करें</a></p>
+  </section>
+
+  <section id="about" class="box">
+    <h2>📢 हमारे बारे में</h2>
+    <p>हम Free Fire गेमर्स के लिए Signature और गाइड उपलब्ध कराते हैं। Contact: freefireguide@email.com</p>
+  </section>
+
+  <footer>
+    © 2025 Free Fire Guide | Powered by Hiralal
+  </footer>
+
+  <script>
+    function generate() {
+      const name = document.getElementById("nameInput").value;
+      const output = document.getElementById("output");
+      if(name.trim()) {
+        output.textContent = "𒆜Ⓥ" + name + "ツ࿐";
+      } else {
+        output.textContent = "कृपया नाम डालें";
+      }
+    }
+  </script>
+</body>
+</html>
